@@ -1,0 +1,39 @@
+# ===== Secrets & môi trường (QUAN TRỌNG NHẤT) =====
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa*
+service-account*.json
+credentials.json
+secrets.*
+config/local.*
+
+# ===== Dependencies & build =====
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+venv/
+dist/
+build/
+target/
+
+# ===== Log, DB dump, backup (hay chứa dữ liệu khách hàng) =====
+*.log
+logs/
+*.sql
+*.sqlite
+*.dump
+*.bak
+
+# ===== IDE / OS =====
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
